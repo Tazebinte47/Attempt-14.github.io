@@ -1,0 +1,664 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: red;
+    height: 110px;
+}
+span{
+    width: 33%;
+    background-color: green;
+    height: 110px;
+    float: left;
+}
+#Image-0{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed red; 
+
+}
+#P-0{
+    float: right;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    line-height: 110px;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    line-height: 110px;
+    display: inline-block;
+    width: 100px;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+main{
+    width:67%;
+    background-color: brown;
+    height:624px;
+    float: right;
+    position: relative;
+}
+article{
+    width: 450px;
+    background-color: red;
+    height:400px;
+    position: absolute;
+    border-radius:10% 15%;
+    top:18%;
+    left: 30%;
+}
+div{
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    line-height:80px;
+    text-align: center;
+}
+aside{
+    width: 33%;
+    height: 624px;
+    position: relative;
+}
+#Image-1{
+    width: 100%;
+    height:281px;
+}
+h1{
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    text-align: center;
+    line-height:30px;
+    position: absolute;
+    top:45%;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed red;
+    padding: 10px 0px;
+}
+#Image-2,#Image-3,#Image-4,#Image-5{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position: absolute;
+}
+#Image-2{
+    border: 5px dashed red;
+    top: 75%;
+    left: 15%;
+}
+#Image-3{
+    border: 5px dashed green;
+    top: 60%;
+    left:30%;
+}
+#Image-4{
+    border: 5px dashed blue;
+    top:75%;
+    left:45%;
+}
+#Image-5{
+    border: 5px dashed brown;
+    top: 60%;
+    left:60%;
+}
+#Thead-1{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-1,#Input-2,#Input-3,#Input-4,#Input-5,#Input-6,#Input-7,#Input-8,#Input-9,#Input-10{
+    text-align: end;
+    margin-right: 5px;
+}
+#Tbody-1{
+    background-color:green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-2{
+    width:197px;
+}
+#Tbody-2{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-3{
+    width:173px;
+}
+#Tbody-3{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-4{
+    width:180px;
+}
+#Tfoot-1{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-1{
+    padding: 10px 15px;
+}
+#P-1{
+    width: 100%;
+    background-color: red;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#P-2{
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#Td{
+    text-align: center;
+}
+.Image,.Image-1{
+    width: 100px;
+    height: 200px;
+}
+#Marquee-1{
+    width: 100%;
+    background-color: red;
+    height: 30px;
+    line-height: 30px;
+    color: gold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#Button-2{
+    padding: 10px 15px;
+}
+#Thead-2{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-5{
+    width:180px;
+}
+#Tbody-4{
+    background-color:green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-7{
+    width:194px;
+}
+#Tbody-5{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-8{
+    width:212px;
+}
+#Tbody-6{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-9{
+    width:195px;
+}
+#Tbody-7{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-10{
+    width:195px;
+}
+#Tfoot-2{
+    background-color:purple;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-3{
+    padding: 10px 15px;
+}
+#Marquee-2{
+    width: 100%;
+    background-color:green;
+    height: 30px;
+    line-height: 30px;
+    color: gold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+    transform: translateY(630%);
+    padding: 10px 0px;
+}
+#Div{
+    width: 1000px;
+    height: 200px;
+    border: 5px dashed black;
+    display: flex;
+}
+#P-3,#P-4,#P-5,#P-6,#P-7{
+    width: 200px;
+    height: 200px;
+    line-height:50px;
+}
+#P-3{
+    background-color: red;
+}
+#P-4{
+    background-color:green;
+}
+#P-5{
+    background-color:blue;
+}
+#P-6{
+    background-color:brown;
+}
+#P-7{
+    background-color:black;
+}
+#Marquee-3{
+    width: 100%;
+    background-color:blue;
+    height: 30px;
+    line-height: 30px;
+    color: gold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+    transform: translateY(630%);
+    padding: 10px 0px;
+}
+#Thead-3{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Tbody-8{
+    background-color:green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Tbody-9{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Lacks{
+    text-align: end;
+}
+#Tfoot-4{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-11{
+    width:174px;
+    text-align: end;
+}
+#Button-4{
+    padding: 10px 15px;
+}
+@media only screen and (min-width:0px) and (max-width:480px) {
+    span{
+        display: none;
+    }
+    aside{
+        float: right;
+        width: 100%;
+    }
+    a{
+        width: 80px;
+    }
+    main{
+        width: 100%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:3.5%;
+        width:400px;
+        height: 400px;
+        top: 17%;
+    }
+    #Table-1{
+        transform: translate(33%,190%);
+    }
+    #Button-1{
+        transform: translate(130%,596%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width:119px;
+    }
+    .Image-1{
+        width:83px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(30%,150%);
+    }
+    #Button-3{
+        transform: translate(140%,565%);
+    }
+    #Div{
+        width: 100%;
+        height:600px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width: 100%;
+        height: 75px;
+        position: absolute;
+        line-height:37.5px;
+    }
+    #P-3{
+        top: 15%;
+    }
+    #P-4{
+        top: 30%;
+    }
+    #P-5{
+        top:45%;
+    }
+    #P-6{
+        top:60%;
+    }
+    #P-7{
+        top:75%;
+    }
+    #Table-4{
+        width:100%;
+    }
+    #Input-11{
+        width: 439px;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    span{
+        width:33%;
+        background-color: blue;
+        height: 110px;
+    }
+    #Image-0{
+        width: 70px;
+    }
+    #P-0{
+        font-size: large;
+    }
+    a{
+        width: 80px;
+    }
+    aside{
+        width: 33%;
+        position: relative;
+    }
+    #Image-2,#Image-3,#Image-4,#Image-5{
+        position: absolute;
+    }
+    #Image-2{
+        left: 10%;
+    }
+    #Image-3{
+        left:25%;
+    }
+    #Image-4{
+        left:40%;
+    }
+    #Image-5{
+        left:55%;
+    }
+    main{
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:7%;
+    }
+    #Table-1{
+        transform: translate(95%,185%);
+    }
+    #Button-1{
+        transform: translate(270%,592%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width:224px;
+    }
+    .Image-1{
+        width: 163px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(90%,150%);
+    }
+    #Button-3{
+        transform: translate(290%,570%);
+    }
+    #Div{
+        width:100%;
+        height: 290px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width:153px;
+        height: 283px;
+    }
+    #Marquee-3{
+        transform: translateY(405%);
+    }
+    #Table-4{
+        width: 100%;
+    }
+    #Input-11{
+        width: 336px;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1279px){
+    span{
+        background-color: brown;
+    }
+    #Table-1{
+        transform: translate(200%,190%);
+    }
+    #Button-1{
+        transform: translate(500%,600%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width:393px;
+    }
+    .Image-1{
+        width:285px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(180%,150%);
+    }
+    #Button-3{
+        transform: translate(500%,564%);
+    }
+    #Div{
+        width: 99%;
+        height:205px;
+        border: 5px dashed black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width:252px;
+    }
+    #Marquee-3{
+        transform: translateY(578%);
+    }
+    #Table-4{
+        width: 100%;
+    }
+    #Input-11{
+        width:843px;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1280px){
+    span{
+        width:35%;
+        background-color: black;
+        height: 110px;
+    }
+    aside{
+        width: 35%;
+    }
+    main{
+        width:65%;
+        position:relative;
+    }
+    article{
+        position: absolute;
+        left:27%;
+    }
+    nav{
+        background-color: blue;
+    }
+    #Table-1{
+        transform: translate(240%,180%);
+    }
+    #Button-1{
+        transform: translate(590%,570%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width:483px;
+    }
+    .Image-1{
+        width:356px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(230%,145%);
+    }
+    #Button-3{
+        transform: translate(630%,542%);
+    }
+    #Div{
+        width:100%;
+        height: 205px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width:302px;
+    }
+    #Table-4{
+        width: 100%;
+    }
+    #Input-11{
+        width: 1111px;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
